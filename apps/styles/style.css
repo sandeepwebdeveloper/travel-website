@@ -1,0 +1,10 @@
+$MainColor: #000000;
+body{
+    color: brown;
+}
+
+.header-color{
+    h2{
+        color:$MainColor;
+    }
+}
