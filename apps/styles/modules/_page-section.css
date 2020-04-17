@@ -1,0 +1,9 @@
+.page-section {
+    &--blue{
+        padding: 1.2rem 0;
+        background: $mainBlue;
+    }
+    @mixin atMedium{
+        adding: 4.5rem 0;
+    }
+}

@@ -1,10 +1,13 @@
-$MainColor: #000000;
-body{
-    color: brown;
-}
+@import 'normalize.css';
+@import '/modules/_variables';
+@import '/base/_global';
+@import '/modules/_mixins';
+@import '/modules/_large-hero';
+@import '/modules/_btn';
+@import '/modules/_wrapper';
+@import '/modules/_page-section';
+@import '/modules/_headline';
+@import '/modules/_row';
+@import '/modules/_generic-content-container';
 
-.header-color{
-    h2{
-        color:$MainColor;
-    }
-}
+
