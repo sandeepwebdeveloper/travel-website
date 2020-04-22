@@ -16,12 +16,22 @@
             width: 63%;
         }
 
+        &__medium-6{
+            width: 50%;
+            float: left;
+        }
     }
     &--gutters > div{
         padding-right: 65px;
     }
     &__b-margin-until-medium{
         margin-bottom: 1rem;
+    }
+    &__gutters-large{
+        margin-right: -100px;
+    }
+    &__gutters-large > div{
+        padding-right: 100px;
     }
     @mixin atMedium{
         &__b-margin-until-medium{
