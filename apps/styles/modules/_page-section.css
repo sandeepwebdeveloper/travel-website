@@ -3,7 +3,23 @@
         padding: 1.2rem 0;
         background: $mainBlue;
     }
+    &--tesimonial{
+        background-color: #e0e6ef;
+        @mixin atLarge{
+            background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+            background-size: cover;
+        }
+    }
+    &--no-padding-untill-medium {
+        padding-bottom: 0;
+    }
     @mixin atMedium{
-        adding: 4.5rem 0;
+        padding: 4.5rem 0;
+    }
+    &--no-padding-untill-large {
+        padding-bottom: 0;
+    }
+    @mixin atLarge{
+        padding: 4.5rem 0;
     }
 }

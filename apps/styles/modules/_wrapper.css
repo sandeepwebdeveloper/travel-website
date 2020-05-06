@@ -12,6 +12,22 @@
         padding-left: 0;
         padding-right: 0;
     }
+    &--no-padding-untill-medium{
+        padding-left: 0;
+        padding-right: 0;
+        @mixin atMedium{
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
+    &--no-padding-untill-large{
+        padding-left: 0;
+        padding-right: 0;
+        @mixin atLarge{
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
     &--b-margin{
         margin-bottom: 1rem;
         @mixin atMedium{
