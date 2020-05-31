@@ -12,6 +12,11 @@
         padding-left: 0;
         padding-right: 0;
     }
+
+    &--narrow {
+        max-width: 470px;
+    }
+
     &--no-padding-untill-medium{
         padding-left: 0;
         padding-right: 0;
