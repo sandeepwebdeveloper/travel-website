@@ -6,7 +6,7 @@ exports.handler = function(event, context, callback) {
     `
 
     if(event.body) {
-        body = JSON.parse(event.body)
+        body = JASON.parse(event.body)
     } else {
         body = {}
     }
