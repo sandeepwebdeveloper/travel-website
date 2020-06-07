@@ -6,7 +6,7 @@ exports.handler = function(event, context, callback) {
     `
 
     if(event.body) {
-        body = JASON.parse(event.body)
+        body = JSON.parse(event.body)
     } else {
         body = {}
     }
@@ -17,7 +17,7 @@ exports.handler = function(event, context, callback) {
         })
     } else { 
         callback(null, {
-            statusCode: 401,
+            statusCode: 401
         })
     }
 }
