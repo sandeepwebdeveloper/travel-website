@@ -26,6 +26,7 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
+    "websocket-extensions": ">=0.1.4",
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "autoprefixer": "^9.7.4",
