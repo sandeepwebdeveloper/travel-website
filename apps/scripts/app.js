@@ -3,12 +3,14 @@ import 'lazysizes'
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
+import ClientArea from './modules/ClientArea'
 //new Modal()
 //alert("This is Testing")
+new ClientArea()
 let mobileMenu = new MobileMenu();
-let stickyHeader = new StickyHeader();
-new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
-new RevealOnScroll(document.querySelectorAll(".testimonial"), 60);
+let stickyHeader = new StickyHeader()
+new RevealOnScroll(document.querySelectorAll(".feature-item"), 75)
+new RevealOnScroll(document.querySelectorAll(".testimonial"), 60)
 let modal
 
 document.querySelectorAll(".open-modal").forEach(el => {
