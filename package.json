@@ -19,9 +19,7 @@
     "url": "https://github.com/sandeepwebdeveloper/travel-website/issues"
   },
   "homepage": "https://github.com/sandeepwebdeveloper/travel-website#readme",
-  "optionalDependencies": {
-    "fsevents": "*"
-  },
+
   "dependencies": {
     "axios": "^0.19.2",
     "lazysizes": "^5.2.2",
