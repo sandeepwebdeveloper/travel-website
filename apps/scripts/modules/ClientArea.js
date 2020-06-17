@@ -13,7 +13,7 @@ class ClientArea {
      this.form.addEventListener("submit", e => {
          e.preventDefault()
          this.sendRequest()
-     } )
+     })
  }
  sendRequest() {
     Axios.post('https://travelings.netlify.app/.netlify/functions/secrete-area', {password: this.field.value}).then(response => {
