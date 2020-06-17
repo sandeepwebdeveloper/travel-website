@@ -4,8 +4,6 @@ import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
 import ClientArea from './modules/ClientArea'
-//new Modal()
-//alert("This is Testing")
 new ClientArea()
 let mobileMenu = new MobileMenu()
 let stickyHeader = new StickyHeader()
