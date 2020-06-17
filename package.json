@@ -19,12 +19,15 @@
     "url": "https://github.com/sandeepwebdeveloper/travel-website/issues"
   },
   "homepage": "https://github.com/sandeepwebdeveloper/travel-website#readme",
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
   "dependencies": {
-    "websocket-extensions": ">=0.1.4",
     "axios": "^0.19.2",
     "lazysizes": "^5.2.2",
     "lodash": "^4.17.15",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "websocket-extensions": ">=0.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
