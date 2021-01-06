@@ -21,7 +21,7 @@
   "homepage": "https://github.com/sandeepwebdeveloper/travel-website#readme",
 
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "lazysizes": "^5.2.2",
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1",
